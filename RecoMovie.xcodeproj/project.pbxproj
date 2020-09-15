@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3064590A2510EB0F00D71A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306459082510EB0F00D71A1B /* LaunchScreen.storyboard */; };
+		3064590B2510EB0F00D71A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306459092510EB0F00D71A1B /* Assets.xcassets */; };
+		306459102510EDBD00D71A1B /* RecoMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064590D2510EDBD00D71A1B /* RecoMovieTests.swift */; };
+		E5F20C1D60C29824C7B74EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F126B8AE63EA1CE1B203C9 /* ViewController.swift */; };
+		E5F3D44CD33B0AC40DF9D593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD9365B402730034C011F2 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5F7EAF71EA7946253B0F93D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5FBB8D3C7B405B69AC677E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5F3E50B5AE8100C8E240401;
+			remoteInfo = RecoMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306459082510EB0F00D71A1B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306459092510EB0F00D71A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3064590D2510EDBD00D71A1B /* RecoMovieTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecoMovieTests.swift; sourceTree = "<group>"; };
+		3064590F2510EDBD00D71A1B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F126B8AE63EA1CE1B203C9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5F7B377ACCD60DC53FBA679 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		E5FD9365B402730034C011F2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5FF83987195B4604A22EAB9 /* RecoMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecoMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FFD7E258C06F66DE0E086B /* RecoMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecoMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5F99AA769964D212DFCC55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FD122B99ADC5E0CBA6CE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306459072510EB0F00D71A1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				306459082510EB0F00D71A1B /* LaunchScreen.storyboard */,
+				306459092510EB0F00D71A1B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3064590C2510EDBD00D71A1B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3064590D2510EDBD00D71A1B /* RecoMovieTests.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3064590E2510EDBD00D71A1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3064590F2510EDBD00D71A1B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F5B3E26C1059D18FAEF7A8 /* RecoMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				3064590C2510EDBD00D71A1B /* Source */,
+				3064590E2510EDBD00D71A1B /* Supporting Files */,
+			);
+			path = RecoMovieTests;
+			sourceTree = "<group>";
+		};
+		E5F6C66E0AC847ADCC570959 = {
+			isa = PBXGroup;
+			children = (
+				E5FDFAA7B0B129D86BFB762D /* Products */,
+				E5F7854545A7F75BA5795D86 /* RecoMovie */,
+				E5F5B3E26C1059D18FAEF7A8 /* RecoMovieTests */,
+			);
+			sourceTree = "<group>";
+		};
+		E5F7854545A7F75BA5795D86 /* RecoMovie */ = {
+			isa = PBXGroup;
+			children = (
+				306459072510EB0F00D71A1B /* Resources */,
+				E5FB019F9B751055E987FCAE /* Source */,
+				E5FB5732B2F77ABB55139D9B /* Supporting Files */,
+			);
+			path = RecoMovie;
+			sourceTree = "<group>";
+		};
+		E5FB019F9B751055E987FCAE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD9365B402730034C011F2 /* AppDelegate.swift */,
+				E5F126B8AE63EA1CE1B203C9 /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E5FB5732B2F77ABB55139D9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F7B377ACCD60DC53FBA679 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5FDFAA7B0B129D86BFB762D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5FFD7E258C06F66DE0E086B /* RecoMovie.app */,
+				E5FF83987195B4604A22EAB9 /* RecoMovieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5F17FB07A85D875DCB921E1 /* RecoMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5FA3CD7897E5D650E7F5AB8 /* Build configuration list for PBXNativeTarget "RecoMovieTests" */;
+			buildPhases = (
+				E5FC6370A25DC5FEFB1D78BD /* Sources */,
+				E5F99AA769964D212DFCC55B /* Frameworks */,
+				E5FF9E5C38C87C0EE54646D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5FDEE446AEC214783B0483B /* PBXTargetDependency */,
+			);
+			name = RecoMovieTests;
+			productName = RecoMovieTests;
+			productReference = E5FF83987195B4604A22EAB9 /* RecoMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5F3E50B5AE8100C8E240401 /* RecoMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F03660C7A8CD85A4E845A5 /* Build configuration list for PBXNativeTarget "RecoMovie" */;
+			buildPhases = (
+				E5F3B53A773F317D5D3B4448 /* Sources */,
+				E5FD122B99ADC5E0CBA6CE87 /* Frameworks */,
+				E5F935DBD449CFB661FB6A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecoMovie;
+			productName = RecoMovie;
+			productReference = E5FFD7E258C06F66DE0E086B /* RecoMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5FBB8D3C7B405B69AC677E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Sune Riedel";
+			};
+			buildConfigurationList = E5F6D9AEFCCABDD678B9B5F2 /* Build configuration list for PBXProject "RecoMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5F6C66E0AC847ADCC570959;
+			productRefGroup = E5FDFAA7B0B129D86BFB762D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5F3E50B5AE8100C8E240401 /* RecoMovie */,
+				E5F17FB07A85D875DCB921E1 /* RecoMovieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5F935DBD449CFB661FB6A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3064590B2510EB0F00D71A1B /* Assets.xcassets in Resources */,
+				3064590A2510EB0F00D71A1B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FF9E5C38C87C0EE54646D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5F3B53A773F317D5D3B4448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3D44CD33B0AC40DF9D593 /* AppDelegate.swift in Sources */,
+				E5F20C1D60C29824C7B74EB8 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FC6370A25DC5FEFB1D78BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306459102510EDBD00D71A1B /* RecoMovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5FDEE446AEC214783B0483B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5F3E50B5AE8100C8E240401 /* RecoMovie */;
+			targetProxy = E5F7EAF71EA7946253B0F93D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E5F0C228B39172F2BE4ECFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5F38DFECF0211D3CDA96121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RecoMovie/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.xkode.RecoMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5F4224009038A62FF950F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5F43075AD2E3674BCAFBC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RecoMovieTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.xkode.RecoMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5F457ED02E330BEA1DA938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RecoMovie/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.xkode.RecoMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5F8C9CEAEDA51453A84D675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RecoMovieTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.xkode.RecoMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5F03660C7A8CD85A4E845A5 /* Build configuration list for PBXNativeTarget "RecoMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F38DFECF0211D3CDA96121 /* Debug */,
+				E5F457ED02E330BEA1DA938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F6D9AEFCCABDD678B9B5F2 /* Build configuration list for PBXProject "RecoMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F4224009038A62FF950F27 /* Debug */,
+				E5F0C228B39172F2BE4ECFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5FA3CD7897E5D650E7F5AB8 /* Build configuration list for PBXNativeTarget "RecoMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F8C9CEAEDA51453A84D675 /* Debug */,
+				E5F43075AD2E3674BCAFBC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5FBB8D3C7B405B69AC677E0 /* Project object */;
+}
