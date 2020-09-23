@@ -1,0 +1,37 @@
+{
+    "page": 1,
+    "total_results": 10000,
+    "total_pages": 500,
+    "results": [{
+        "popularity": 2028.856,
+        "vote_count": 1,
+        "video": false,
+        "poster_path": "\/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg",
+        "id": 694919,
+        "adult": false,
+        "backdrop_path": "\/9Y12EdkIVvYir3uTcZGjqfXWBUv.jpg",
+        "original_language": "en",
+        "original_title": "Money Plane",
+        "genre_ids": [28],
+        "title": "Money Plane",
+        "vote_average": 8.5,
+        "overview": "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
+        "release_date": "2020-09-29"
+    }, {
+        "popularity": 1526.825,
+        "vote_count": 1875,
+        "video": false,
+        "poster_path": "\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
+        "id": 337401,
+        "adult": false,
+        "backdrop_path": "\/zzWGRw277MNoCs3zhyG3YmYQsXv.jpg",
+        "original_language": "en",
+        "original_title": "Mulan",
+        "genre_ids": [28, 12, 18, 14],
+        "title": "Mulan",
+        "vote_average": 7.5,
+        "overview": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
+        "release_date": "2020-09-10"
+    }
+  ]
+}
