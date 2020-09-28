@@ -44,8 +44,10 @@ struct MovieCellViewModel {
         view.releaseDate = "Released: \(self.displayFormatter.string(from: date))"
         view.voteAverage = String(format: "%.1f", movie.voteAverage)
 
-        self.networkInterface.fetchImageData("https://image.tmdb.org/t/p/w154\(movie.posterPath)") { data, response, error in
-            view.posterData = data
+        if let posterPath = movie.posterPath {
+            self.networkInterface.fetchImageData("https://image.tmdb.org/t/p/w154\(posterPath)") { data, response, error in
+                view.posterData = data
+            }
         }
     }
 }
