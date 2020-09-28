@@ -23,3 +23,10 @@ Added unit tests for everything (could be more elaborate).<br/>
 <br/>
 <i>Time spent on this part: ~2 hours</i>
 
+# UI for showing popular movie list
+Created the view model and view (table cell) for showing the list of popular movies. Also implemented the necessary
+call to fetch the poster image for the movie (path hardcoded as described earlier)<br/>
+I skipped doing more unit tests for this part - also in some places error handling could be more extensive to provide a
+better user experience.<br/>
+<br/
+<i>Time spent on this part: ~1.5 hours</i>
