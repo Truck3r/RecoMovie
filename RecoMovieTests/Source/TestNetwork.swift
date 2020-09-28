@@ -25,6 +25,10 @@ class TestNetwork: NetworkInterface {
         }
     }
 
+    func fetchImageData(_ url: String, completion: @escaping (Data?, RemoteResponse?, RemoteError?) -> ()) {
+        // TODO: Add mocking code here
+    }
+
 // helper function for loading json mock data
     func loadDataFromLocalResource(named resource: String) -> Data? {
         let components = resource.split(separator: ".")

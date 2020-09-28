@@ -7,7 +7,7 @@ import Foundation
 
 class MovieListNetworkDataSource: MovieListDataSource {
     // adjust this to decide when to start preloading (when element of count - x is requested, we initiate load of next page)
-    private static let pageLoadThreshold = 0
+    private static let pageLoadThreshold = 3
 
     private let networkInterface: NetworkInterface
 
@@ -57,10 +57,13 @@ class MovieListNetworkDataSource: MovieListDataSource {
                     self.pageSize = page.results.count
                     self.totalCount = page.totalResults
                 }
-                let begin = self.movies.count + 1
+                let begin = self.movies.count
                 self.movies += page.results
                 // notify the observer of the data source (if set), that new data is available
-                self.dataUpdatedCallback?(begin, self.movies.count)
+                self.dataUpdatedCallback?(begin, self.movies.count - 1)
+            }
+            else if error != nil {
+                // TODO: this would be a good place to do some actual error handling
             }
         }
     }

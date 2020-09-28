@@ -27,4 +27,5 @@ struct RemoteResponse {
 
 protocol NetworkInterface: class {
     func fetchJSON<T>(_ url: String, codable: T.Type, completion: @escaping (T?, RemoteResponse?, RemoteError?) -> Void) where T : Decodable
+    func fetchImageData(_ url: String, completion: @escaping (Data?, RemoteResponse?, RemoteError?) -> Void)
 }

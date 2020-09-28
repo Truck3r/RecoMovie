@@ -13,10 +13,12 @@
 		306459102510EDBD00D71A1B /* RecoMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064590D2510EDBD00D71A1B /* RecoMovieTests.swift */; };
 		E5F0CCDA35A53EB488B12C4B /* RemoteNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0A1D27597BC49CEEE3956 /* RemoteNetwork.swift */; };
 		E5F0E2D9483BCE2D3FF5DF6D /* RemoteNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0A1D27597BC49CEEE3956 /* RemoteNetwork.swift */; };
+		E5F10EAECF1B2F0FF9FB4DE4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FCF1B4B1158973F22BF59E /* MovieCell.swift */; };
 		E5F11BE7413B70F79BB16F6A /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F9F91C63E236AD1FC652FC /* NetworkTests.swift */; };
 		E5F20C1D60C29824C7B74EB8 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F126B8AE63EA1CE1B203C9 /* MovieListController.swift */; };
 		E5F22F5E9BA722EFA1C656E4 /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F54038529B4718A7A43196 /* ResultPage.swift */; };
 		E5F263AE0CDE734BB6A41720 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FFA4526B602186E063BA68 /* NetworkInterface.swift */; };
+		E5F281BC776DBDC90E4B3E50 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FCF1B4B1158973F22BF59E /* MovieCell.swift */; };
 		E5F2C8D85AA3F780BC3724B7 /* movies1.json in Resources */ = {isa = PBXBuildFile; fileRef = E5FDC0DECCE18C201ACB99AF /* movies1.json */; };
 		E5F3D44CD33B0AC40DF9D593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD9365B402730034C011F2 /* AppDelegate.swift */; };
 		E5F528FE44427866B82E6CEA /* movies3.json in Resources */ = {isa = PBXBuildFile; fileRef = E5F24648858185AF0E9F7F13 /* movies3.json */; };
@@ -30,8 +32,10 @@
 		E5FA8BCA4D3ABFA37CFF05C7 /* MovieListNetworkDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F157567B83961489971B3C /* MovieListNetworkDataSource.swift */; };
 		E5FB01C540EB230D9C7C055F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA4518CD554508A660151F /* Movie.swift */; };
 		E5FC06BCAA80CA2D22930EEC /* MovieListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F2E5061EB797242EC7431C /* MovieListDataSource.swift */; };
+		E5FDAB85A8B54524B7ABABF0 /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F10C528ACCAE31BAFD81E3 /* MovieCellViewModel.swift */; };
 		E5FE18C102F3C69163B93C20 /* MovieListNetworkDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F157567B83961489971B3C /* MovieListNetworkDataSource.swift */; };
 		E5FE88FD147EC8AF5915239E /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FFA4526B602186E063BA68 /* NetworkInterface.swift */; };
+		E5FE8F2DB71399C027D5086E /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F10C528ACCAE31BAFD81E3 /* MovieCellViewModel.swift */; };
 		E5FE91A072C1E77A2ABD513C /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F54038529B4718A7A43196 /* ResultPage.swift */; };
 		E5FED1B7A672EA291A4DC522 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA4518CD554508A660151F /* Movie.swift */; };
 		E5FF21C27161C6A45025B01E /* movies3.json in Resources */ = {isa = PBXBuildFile; fileRef = E5F24648858185AF0E9F7F13 /* movies3.json */; };
@@ -56,6 +60,7 @@
 		3064590F2510EDBD00D71A1B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F077236703CEE969991295 /* movies4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies4.json; sourceTree = "<group>"; };
 		E5F0A1D27597BC49CEEE3956 /* RemoteNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNetwork.swift; sourceTree = "<group>"; };
+		E5F10C528ACCAE31BAFD81E3 /* MovieCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCellViewModel.swift; sourceTree = "<group>"; };
 		E5F126B8AE63EA1CE1B203C9 /* MovieListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
 		E5F157567B83961489971B3C /* MovieListNetworkDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListNetworkDataSource.swift; sourceTree = "<group>"; };
 		E5F15BEC0A1094C3E03D39B2 /* movies2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies2.json; sourceTree = "<group>"; };
@@ -67,6 +72,7 @@
 		E5F7B377ACCD60DC53FBA679 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		E5F9F91C63E236AD1FC652FC /* NetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
 		E5FA4518CD554508A660151F /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E5FCF1B4B1158973F22BF59E /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		E5FD9365B402730034C011F2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5FDC0DECCE18C201ACB99AF /* movies1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies1.json; sourceTree = "<group>"; };
 		E5FF83987195B4604A22EAB9 /* RecoMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecoMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +178,8 @@
 				E5F157567B83961489971B3C /* MovieListNetworkDataSource.swift */,
 				E5FFA4526B602186E063BA68 /* NetworkInterface.swift */,
 				E5F0A1D27597BC49CEEE3956 /* RemoteNetwork.swift */,
+				E5F10C528ACCAE31BAFD81E3 /* MovieCellViewModel.swift */,
+				E5FCF1B4B1158973F22BF59E /* MovieCell.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -237,7 +245,7 @@
 		E5FBB8D3C7B405B69AC677E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Sune Riedel";
 			};
 			buildConfigurationList = E5F6D9AEFCCABDD678B9B5F2 /* Build configuration list for PBXProject "RecoMovie" */;
@@ -246,6 +254,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E5F6C66E0AC847ADCC570959;
 			productRefGroup = E5FDFAA7B0B129D86BFB762D /* Products */;
@@ -299,6 +308,8 @@
 				E5FA8BCA4D3ABFA37CFF05C7 /* MovieListNetworkDataSource.swift in Sources */,
 				E5F263AE0CDE734BB6A41720 /* NetworkInterface.swift in Sources */,
 				E5F0E2D9483BCE2D3FF5DF6D /* RemoteNetwork.swift in Sources */,
+				E5FE8F2DB71399C027D5086E /* MovieCellViewModel.swift in Sources */,
+				E5F281BC776DBDC90E4B3E50 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +327,8 @@
 				E5F11BE7413B70F79BB16F6A /* NetworkTests.swift in Sources */,
 				E5F900005E1F2FE3F9F85309 /* TestNetwork.swift in Sources */,
 				E5FF6D3B3017FC281CD48233 /* MovieListDataSourceTests.swift in Sources */,
+				E5FDAB85A8B54524B7ABABF0 /* MovieCellViewModel.swift in Sources */,
+				E5F10EAECF1B2F0FF9FB4DE4 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +369,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -422,6 +436,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

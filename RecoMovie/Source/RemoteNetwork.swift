@@ -35,4 +35,18 @@ class RemoteNetwork : NetworkInterface {
         }
         task.resume()
     }
+
+    func fetchImageData(_ url: String, completion: @escaping (Data?, RemoteResponse?, RemoteError?) -> Void) {
+        guard let u = URL(string: url) else {
+            completion(nil, nil, RemoteError.urlError)
+            return
+        }
+        let task = self.dataSession.dataTask(with: u) {
+            data, response, error in
+            let err: RemoteError? = error != nil ? .networkError : nil
+            let remoteResponse = RemoteResponse(urlResponse: response)
+            completion(data, remoteResponse, err)
+        }
+        task.resume()
+    }
 }

@@ -12,7 +12,7 @@ struct Movie: Decodable {
     let posterPath: String
     let id: Int
     let adult: Bool
-    let backdropPath: String
+    let backdropPath: String?
     let originalLanguage: String
     let originalTitle: String
     let genreIDs: [Int]
