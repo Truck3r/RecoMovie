@@ -24,18 +24,21 @@ class MovieListController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.backButtonTitle = "Back"
         self.title = "Popular Movies"
         self.tableView.register(MovieCell.self, forCellReuseIdentifier: "Cell")
         self.tableView.rowHeight = 120.0
         self.tableView.separatorStyle = .none
-        self.tableView.separatorInset = UIEdgeInsets(top: 2.0, left: 0.0, bottom: 0.0, right: 0.0)
         self.dataSource.dataUpdatedCallback = { from, to in
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
         }
     }
+}
 
+// data source
+extension MovieListController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         self.dataSource.count
     }
@@ -48,8 +51,7 @@ class MovieListController: UITableViewController {
         if let movie = self.dataSource[indexPath.row] {
             let viewModel = MovieCellViewModel(movie: movie, networkInterface: networkInterface)
             viewModel.bind(to: cell)
-        }
-        else {
+        } else {
             cell.title = "N/A"
         }
 
@@ -59,7 +61,18 @@ class MovieListController: UITableViewController {
         return cell
     }
 
+}
+
+// delegate methods
+extension MovieListController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.tableView.deselectRow(at: indexPath, animated: true)
+        if let movie = self.dataSource[indexPath.row] {
+            let detailController = MovieDetailController()
+            self.navigationController?.pushViewController(detailController, animated: true)
+
+            let viewModel = MovieDetailViewModel(movie: movie, networkInterface: self.networkInterface)
+            viewModel.bind(to: detailController)
+        }
     }
 }

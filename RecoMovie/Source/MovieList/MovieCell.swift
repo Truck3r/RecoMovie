@@ -8,7 +8,9 @@ import UIKit
 class MovieCell: UITableViewCell, MovieView {
     var title: String {
         set {
-            self.textLabel?.text = newValue
+            DispatchQueue.main.async {
+                self.textLabel?.text = newValue
+            }
         }
         get {
             self.textLabel?.text ?? "N/A"
@@ -32,7 +34,9 @@ class MovieCell: UITableViewCell, MovieView {
 
     var releaseDate: String {
         set {
-            self.detailTextLabel?.text = newValue
+            DispatchQueue.main.async {
+                self.detailTextLabel?.text = newValue
+            }
         }
         get {
             self.detailTextLabel?.text ?? "N/A"
@@ -41,7 +45,9 @@ class MovieCell: UITableViewCell, MovieView {
 
     var voteAverage: String {
         set {
-            self.acLabel.text = newValue
+            DispatchQueue.main.async {
+                self.acLabel.text = newValue
+            }
         }
         get {
             self.acLabel.text ?? "N/A"

@@ -18,21 +18,6 @@ struct MovieCellViewModel {
     // network interface for fetching additional data (poster images)
     private let networkInterface: NetworkInterface
 
-    // parsing the string date from the API
-    private let dateParser: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd"
-        return formatter
-    }()
-
-    // formatting the date back to a nice display string
-    private let displayFormatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .long
-        formatter.timeStyle = .none
-        return formatter
-    }()
-
     init(movie: Movie, networkInterface: NetworkInterface) {
         self.movie = movie
         self.networkInterface = networkInterface
@@ -40,8 +25,7 @@ struct MovieCellViewModel {
 
     func bind(to view: MovieView) {
         view.title = movie.title
-        let date = self.dateParser.date(from: movie.releaseDate) ?? Date()
-        view.releaseDate = "Released: \(self.displayFormatter.string(from: date))"
+        view.releaseDate = "Released: \(movie.releaseDate.reformatDateString())"
         view.voteAverage = String(format: "%.1f", movie.voteAverage)
 
         if let posterPath = movie.posterPath {

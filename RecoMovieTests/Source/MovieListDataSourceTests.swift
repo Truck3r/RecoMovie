@@ -43,11 +43,11 @@ class MovieListDataSourceTests: XCTestCase {
         let network = TestNetwork()
         let dataSource = MovieListNetworkDataSource(networkInterface: network)
         var expectedCount = 0
-        var pagesize = 2
+        let pagesize = 2
         dataSource.dataUpdatedCallback = { from, to in
             print("Loaded from: \(from) - to: \(to)")
             expectedCount += pagesize
-            XCTAssertEqual(expectedCount, to, "Expected count to be: \(expectedCount)")
+            XCTAssertEqual(expectedCount, to + 1, "Expected count to be: \(expectedCount)")
             _ = dataSource[to - 1]
             if expectedCount == dataSource.totalCount {
                 expectation.fulfill()

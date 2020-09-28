@@ -30,3 +30,7 @@ I skipped doing more unit tests for this part - also in some places error handli
 better user experience.<br/>
 <br/
 <i>Time spent on this part: ~1.5 hours</i>
+
+# UI for showing movie details
+Created a very basic detail page, just using the data available from the list model object. A new poster is loaded in a
+larger format.
