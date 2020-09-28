@@ -33,4 +33,6 @@ better user experience.<br/>
 
 # UI for showing movie details
 Created a very basic detail page, just using the data available from the list model object. A new poster is loaded in a
-larger format.
+larger format.<br/>
+<br/
+<i>Time spent on this part: ~1 hour</i>
