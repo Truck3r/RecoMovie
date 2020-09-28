@@ -28,11 +28,11 @@ Created the view model and view (table cell) for showing the list of popular mov
 call to fetch the poster image for the movie (path hardcoded as described earlier)<br/>
 I skipped doing more unit tests for this part - also in some places error handling could be more extensive to provide a
 better user experience.<br/>
-<br/
+<br/>
 <i>Time spent on this part: ~1.5 hours</i>
 
 # UI for showing movie details
 Created a very basic detail page, just using the data available from the list model object. A new poster is loaded in a
 larger format.<br/>
-<br/
+<br/>
 <i>Time spent on this part: ~1 hour</i>
